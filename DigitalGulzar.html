@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<meta name="description" content="Fun lyrics generator">
+	<meta name="keywords" content="Gulzar, Digital Gulzar, fun lyrics, lyrics generator">
+	<meta name="author" content="Devang Liya">
+	<title>Digital Gulzar</title>
+	<style type="text/css">
+		.song{
+			font-family: Verdana, sans-serif;
+			vertical-align: middle;
+			text-align: center;
+		}
+	</style>
+</head>
+<body class="song">
+
+<div class="song">
+<h1 id="demo"></h1>
+</div>
+
+<footer>
+	<p style="position: relative;bottom: 0%;">Created by Devang Liya</p>
+	<p style="position: relative;bottom: 0%;;">Inspired by: https://www.reddit.com/r/india/comments/9anilw/how_to_write_like_gulzar/</p>
+</footer>
+<script type="text/javascript">
+	var oscillations = ["Thiraktey","Jhulastey","Simat-tey"];
+	var oscillation = oscillations[Math.floor(Math.random()*oscillations.length)];
+	var FacialFeatures = ["Nazaron","Hothon","Naino","Gaalon","Maathey"];
+	var FacialFeature = FacialFeatures[Math.floor(Math.random()*FacialFeatures.length)];
+	var NaturalPhenomenas = ["Boond","Oas","Baarish","Hawa"];
+	var NaturalPhenomena = NaturalPhenomenas[Math.floor(Math.random()*NaturalPhenomenas.length)];
+	var HappensInBathroom = ["phisalna","girna","tapakna","ulajna","sulajna","nikalna","sawarna"];
+	var HappendInBathroom = HappensInBathroom[Math.floor(Math.random()*HappensInBathroom.length)];
+	var emotions = ["Yaad","Hasata","Darata","Rulata"];
+	var emotion = emotions[Math.floor(Math.random()*emotions.length)];
+	var UFOMovements = ["door jana","paas aana","roshni failana","gayab ho jana"];
+	var UFOMovement = UFOMovements[Math.floor(Math.random()*UFOMovements.length)];
+	// var images = ["box.jpeg","window.jpeg","bulbs.jpg","flower.jpg","lamp.jpg","mountain.jpg","railway.jpg","rain.png"];
+	// var image = images[Math.floor(Math.random()*images.length)];
+	document.getElementById("demo").innerHTML = oscillation + " hue " + FacialFeature + " se " + NaturalPhenomena + " ka " + HappendInBathroom + ". " + emotion + " hai mujhe tera wahi " + UFOMovement + ".";
+	// document.body.style.background = "url(images/"+image+")";
+	// document.body.style.backgroundSize = "cover";
+	// document.body.style.backgroundRepeat = "no repeat"; 
+</script>
+</body>
+</html>
