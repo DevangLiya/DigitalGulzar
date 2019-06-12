@@ -21,16 +21,12 @@
 <h1 id="demo"></h1>
 </div>
 
-<footer>
-	<p style="position: relative;bottom: 0%;">Created by Devang Liya</p>
-	<p style="position: relative;bottom: 0%;;">Inspired by: https://www.reddit.com/r/india/comments/9anilw/how_to_write_like_gulzar/</p>
-</footer>
 <script type="text/javascript">
-	var oscillations = ["Thiraktey","Jhulastey","Simat-tey"];
+	var oscillations = ["Thiraktey","Jhulastey","Simat-tey", "Mataktey", "Lipatey"];
 	var oscillation = oscillations[Math.floor(Math.random()*oscillations.length)];
-	var FacialFeatures = ["Nazaron","Hothon","Naino","Gaalon","Maathey"];
+	var FacialFeatures = ["Nazaron","Hothon","Naino","Gaalon","Maathey", "Jism"];
 	var FacialFeature = FacialFeatures[Math.floor(Math.random()*FacialFeatures.length)];
-	var NaturalPhenomenas = ["Boond","Oas","Baarish","Hawa"];
+	var NaturalPhenomenas = ["Boond","Oas","Baarish","Hawa", "Raat", "Ujale"];
 	var NaturalPhenomena = NaturalPhenomenas[Math.floor(Math.random()*NaturalPhenomenas.length)];
 	var HappensInBathroom = ["phisalna","girna","tapakna","ulajna","sulajna","nikalna","sawarna"];
 	var HappendInBathroom = HappensInBathroom[Math.floor(Math.random()*HappensInBathroom.length)];
@@ -38,12 +34,7 @@
 	var emotion = emotions[Math.floor(Math.random()*emotions.length)];
 	var UFOMovements = ["door jana","paas aana","roshni failana","gayab ho jana"];
 	var UFOMovement = UFOMovements[Math.floor(Math.random()*UFOMovements.length)];
-	// var images = ["box.jpeg","window.jpeg","bulbs.jpg","flower.jpg","lamp.jpg","mountain.jpg","railway.jpg","rain.png"];
-	// var image = images[Math.floor(Math.random()*images.length)];
 	document.getElementById("demo").innerHTML = oscillation + " hue " + FacialFeature + " se " + NaturalPhenomena + " ka " + HappendInBathroom + ". " + emotion + " hai mujhe tera wahi " + UFOMovement + ".";
-	// document.body.style.background = "url(images/"+image+")";
-	// document.body.style.backgroundSize = "cover";
-	// document.body.style.backgroundRepeat = "no repeat"; 
 </script>
 </body>
 </html>
